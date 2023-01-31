@@ -1,7 +1,25 @@
+img.background{
+     
+      position:absolute;
+      left: 0px;
+      top: 0px;
+      z-index: -1;
+      width: 100%;
+      height: 150%;
+      filter: blur(5px);
+}
 body {
-    background-image: url(./images/diy-food-background.webp);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height:100%;
+    color: white;
+}
+
+a {
+    color: bisque;
+    font-weight: bold;
+}
+
+h1 {
+    background-image: url(./images/recipes.png);
+    text-align: center;
+    font-size: 60px;
+    font-family: Chilanka, Arial, monospace;
 }
